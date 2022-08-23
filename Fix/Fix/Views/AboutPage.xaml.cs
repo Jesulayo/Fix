@@ -9,6 +9,7 @@ namespace Fix.Views
     {
         public AboutPage()
         {
+
             InitializeComponent();
         }
     }
