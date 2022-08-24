@@ -24,4 +24,4 @@ jobs:
       uses: actions/upload-artifact@v2.2.4
       with:
         name: Fix
-        path: Fix/Fix.Android/bin/Release/com.companyname.fix-Signned.apk
+        path: Fix/Fix.Android/bin/Release/com.companyname.fix-Signed.apk
