@@ -11,7 +11,7 @@ jobs:
 
     - name: Setup Android signin
       run: |
-        echo "${{ secrets.KEYSTORE }}"
+        echo "${{ secrets.KEYSTORE }}" > jesulayo.keystore.asc
         gpg -d --passphrase "${{ secrets.GPG_PASSWORD }}" --batch jesulayo.keystore.asc > ./Fix/Fix.Android/jesulayo.keystore
         
     
